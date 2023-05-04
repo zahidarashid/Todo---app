@@ -1,0 +1,60 @@
+form {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.todo-list h1 {
+    margin: 50px;
+    text-align: center;
+    color: green;
+    text-decoration: underline solid rgb(23, 8, 228);
+}
+
+.inputs {
+    width: 840px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputs input {
+    width: 300px;
+    outline: none;
+    border: 1px solid rgb(18, 32, 219);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}
+
+.inputs label {
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+
+}
+
+.inputs .btn button {
+
+    padding: 10px 20px;
+    background-color: rgb(52, 27, 196);
+    border: 1px solid rgb(13, 35, 241);
+    outline: none;
+    color: #FFF;
+    font-size: 16x;
+    cursor: pointer;
+}
+
+.inputs .name {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.des {
+    display: flex;
+    flex-direction: column;
+}

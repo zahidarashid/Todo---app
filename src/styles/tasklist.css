@@ -1,0 +1,34 @@
+.task-list{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.task-details{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid rgb(52, 27, 196);
+    margin: 20px;
+    padding: 20px;
+    font-size: 24px;
+}
+.task-details h2{
+    color: green;
+}
+
+ul{
+    list-style: none;
+   
+}
+
+.task-details button{
+    padding: 8px 15px;
+    background-color: crimson;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
